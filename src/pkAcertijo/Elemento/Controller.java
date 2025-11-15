@@ -1,4 +1,4 @@
-package pkAcertijo.pkElemento;
+package pkAcertijo.Elemento;
 
 public class Controller {
 

@@ -10,6 +10,6 @@ public abstract class elemento {
     public String getNombre() {
         return nombre;
     }
-    public abstract boolean comer( elemento e);
+    public abstract boolean comer(elemento e);
 
 }

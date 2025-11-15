@@ -1,4 +1,4 @@
-package Elemento;
+package pkAcertijo.Elemento;
 public class Caperucita extends elemento {
     public Caperucita() {
         super("Caperucita");
