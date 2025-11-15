@@ -1,0 +1,42 @@
+<mxfile host="65bd71144e">
+    <diagram id="bhovXFvWdDtaHaL4ZaeQ" name="Page-1">
+        <mxGraphModel dx="1449" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="510" width="120" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="510" width="120" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="pkElemento" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#E9FFCE;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="410" width="780" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="7">
+                    <mxGeometry width="459.09735269423436" height="327.00229885057473" relative="1" as="geometry">
+                        <mxPoint y="42" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Decidir qué elemento va a llevar el vikingo al otro lado del río (uvas, lobo o capeerucita)." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="207.5" y="70" width="365" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Ganar juego si todos los elementos cruzan el río, se pierde si el lobo se come a la caperucita y si la caperucita se come las uvas." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="218.16" y="330" width="343.68" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="7" source="20" target="19">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="520" y="390" as="sourcePoint"/>
+                        <mxPoint x="414" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.983;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
