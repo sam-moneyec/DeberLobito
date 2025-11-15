@@ -8,6 +8,6 @@ package pkAcertijo.Elemento;
     @Override
     public boolean comer(elemento e) {
       
-        return (e instanceof Caperucita) || (e instanceof Uvas);
+        return (e instanceof Caperucita);
     }
 }
