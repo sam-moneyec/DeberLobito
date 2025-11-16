@@ -1,12 +1,12 @@
 package pkAcertijo.Elemento;
-    public class Lobo extends elemento {
+    public class Lobo extends Elemento {
 
     public Lobo() {
         super("Lobo");
     }
 
     @Override
-    public boolean comer(elemento e) {
+    public boolean comer(Elemento e) {
       
         return (e instanceof Caperucita);
     }

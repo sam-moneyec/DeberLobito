@@ -1,4 +1,5 @@
-import pkAcertijo.Elemento.elemento;
+package pkAcertijo;
+import pkAcertijo.Elemento.Elemento;
 
 public class Vikingo {
 
@@ -16,7 +17,7 @@ public class Vikingo {
         return remando;
     }
 
-    public boolean transportar(Bote b, elemento e) {
+    public boolean transportar(Bote b, Elemento e) {
         // Embarcar un elemento en el bote
         return b.embarcar(e);
     }
