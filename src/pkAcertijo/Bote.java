@@ -1,10 +1,11 @@
-import pkAcertijo.Elemento.elemento;
+package pkAcertijo;
+import pkAcertijo.Elemento.Elemento;
 
 public class Bote {
 
     private boolean sentido;   // true = derecha, false = izquierda
     private int capacidad;
-    private elemento carga;    // elemento que está actualmente en el bote
+    private Elemento carga;    // elemento actualmente en el bote
 
     public Bote(int capacidad) {
         this.capacidad = capacidad;
@@ -12,7 +13,7 @@ public class Bote {
         this.carga = null;
     }
 
-    public boolean embarcar(elemento e) {
+    public boolean embarcar(Elemento e) {
         if (carga == null && capacidad == 1) {
             carga = e;
             return true;
@@ -24,18 +25,18 @@ public class Bote {
         carga = null;
     }
 
-    public elemento getCarga() {
+    public Elemento getCarga() {
         return carga;
     }
 
-    public boolean mover(Vikingo v, elemento e) {
+    public boolean mover(Vikingo v, Elemento e) {
         // El vikingo debe estar remando
         if (!v.estaRemando()) return false;
 
-        // Si hay un elemento para llevar verifica si está embarcado
+        // Si hay un elemento para llevar, verificar si está embarcado
         if (e != null && e != carga) return false;
 
-        // Cambia el sentido del bote
+        // Cambia el sentido
         sentido = !sentido;
 
         return true;
