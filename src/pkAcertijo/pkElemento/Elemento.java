@@ -1,15 +1,17 @@
-package pkAcertijo.Elemento;
+package pkAcertijo.pkElemento;
 
 
 public abstract class Elemento {
-    private String nombre;
- 
+    protected String nombre;
+   
+    public boolean enOrillaDerecha = false; 
+
     public Elemento(String nombre) {
         this.nombre = nombre;
     }
+
+    
     public String getNombre() {
         return nombre;
     }
-    public abstract boolean comer(Elemento e);
-
 }
